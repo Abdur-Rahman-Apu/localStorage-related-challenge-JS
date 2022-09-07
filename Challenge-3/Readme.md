@@ -1,9 +1,9 @@
-![task_img](https://github.com/Abdur-Rahman-Apu/localStorage-related-challenge-JS/blob/main/Challenge-1/task.png)
+![task_img](https://github.com/Abdur-Rahman-Apu/localStorage-related-challenge-JS/blob/main/Challenge-3/task.png)
 
 
 Result:
 
-![result_img](https://github.com/Abdur-Rahman-Apu/localStorage-related-challenge-JS/blob/main/Challenge-1/result.png)
+![result_img](https://github.com/Abdur-Rahman-Apu/localStorage-related-challenge-JS/blob/main/Challenge-3/result.png)
 
 Live link:
 [click here](https://challenge-3-location-storage-js.netlify.app/)
