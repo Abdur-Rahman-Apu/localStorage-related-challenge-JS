@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Challenge 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="mh-100">
+        <div class="container w-50">
+
+            <!-- title  -->
+            <h3 class="my-5 text-center ">Please Contact me</h3>
+
+            <!-- name field  -->
+            <label for="name-field" class="form-label">Name</label>
+            <div class="input-group mb-5">
+
+                <input id="name-field" type="text" class="form-control">
+                <button id="delete-name" class="btn btn-primary mx-3 rounded-pill" type="button">Delete Name</button>
+                <button id="send-name" class="btn btn-primary rounded-pill" type="button">Send Name</button>
+            </div>
+
+            <!-- email field  -->
+            <label for="email-field" class="form-label">Email</label>
+            <div class="input-group mb-5">
+
+                <input id="email-field" type="email" class="form-control">
+                <button id="delete-email" class="btn btn-primary mx-3 rounded-pill" type="button">Delete Email</button>
+                <button id="send-email" class="btn btn-primary rounded-pill" type="button">Send Email</button>
+            </div>
+
+            <!-- text area  -->
+            <label for="textarea-field" class="form-label">Message</label>
+            <div class="input-group mb-5 align-items-center">
+
+                <textarea class="form-control" id="textarea-field" rows="3"></textarea>
+                <button id="delete-text-area" class="btn btn-primary mx-3 rounded-pill" type="button">Delete
+                    Message</button>
+                <button id="send-text-area" class="btn btn-primary rounded-pill" type="button">Send Message</button>
+            </div>
+
+
+            <div class="d-flex justify-content-between">
+                <button id="send-btn" type="button" class="btn btn-warning fw-bold text-white px-5 py-1">Send</button>
+                <button id="reset-btn" type="button" class="btn btn-danger fw-bold text-white px-5 py-1">Reset</button>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- bootstrap js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <!-- custom js link  -->
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
